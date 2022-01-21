@@ -1,0 +1,80 @@
+1-IoC - Inversion of control is generic term, independent of language, it is actually not create the objects but describe in which fashion object is being created.
+DI - Dependency Injection is concrete term, in which we provide dependencies of the object at run time by using different injection techniques viz. Setter Injection, Constructor Injection or by Interface Injection
+
+2-In the spring bean configurations, bean attribute called 'scope' defines what kind of object has to created and returned. There are 5 types of bean scopes available, they are:
+
+1) singleton: Returns a single bean instance per Spring IoC container.
+
+2) prototype: Returns a new bean instance each time when requested.
+
+3) request: Returns a single instance for every HTTP request call.
+
+4) session: Returns a single instance for every HTTP session.
+
+5) global session: global session scope is equal as session scope on portlet-based web applications.
+
+3-@SpringBootApplication indicates that the class is a configuration class and triggers automatic configuration via scanning via @EnableAutoConfiguration and @ComponentScan annotation in the component.
+
+4-Spring AOP enables Aspect-Oriented Programming in spring applications. In AOP, aspects enable the modularization of concerns such as transaction management, logging or security that cut across multiple types and objects
+
+5-It is used where only a single instance of a class is required to control the action throughout the execution. A singleton class shouldn't have multiple instances in any case and at any cost. Singleton classes are used for logging, driver objects, caching and thread pool, database connections.
+
+6-Actuator is mainly used to expose operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.
+
+Once this dependency is on the classpath, several endpoints are available for us out of the box. As with most Spring modules, we can easily configure or extend it in many ways.
+
+7-Spring
+
+Spring framework comes with a number of features like dependency injection and several out of the box modules as,
+
+- Spring JDBC
+
+- Spring MVC
+
+- Spring Security
+
+- Spring AOP
+
+- Spring ORM
+
+- Spring Test
+
+Using these modules, we can effectively decrease the application development time.
+
+Spring Boot
+
+Spring Boot basically sets up the environment for development, it configures the project itself and makes development efficient.
+
+Spring boot aids you to create Spring projects faster by eliminating boilerplate configurations.
+
+Features of Spring Boot:
+
+- The server is embedded to ease the build and configuration of the application.
+
+- Spring functionality is automatically configured.
+
+
+8-Version control is important to keep track of changes — and keep every team member working on the right version. You should use version control software for all code, files, and assets that multiple team members will collaborate on. 
+
+9-Single Responsibility Principle	Each class should be responsible for a single part or functionality of the system.
+
+Open-Closed Principle	                Software components should be open for extension, but not for modification.
+
+Liskov Substitution Principle	        Objects of a superclass should be replaceable with objects of its subclasses without breaking the system.
+
+Interface Segregation Principle	         No client should be forced to depend on methods that it does not use.
+
+Dependency Inversion Principle	        High-level modules should not depend on low-level modules, both should depend on abstractions.
+
+10-The Rapid Application Development model is based on prototyping and iterative model with no (or less) specific planning. In general, RAD approach to software development means putting lesser emphasis on planning tasks and more emphasis on development and coming up with a prototype.
+
+11-Spring Boot provides a number of starters that allow us to add jars in the classpath. Spring Boot built-in starters make development easier and rapid. Spring Boot Starters are the dependency descriptors.
+
+12-The data in a cache is generally stored in fast access hardware such as RAM  and may also be used in correlation with a software component. A cache's primary purpose is to increase data retrieval performance by reducing the need to access the underlying slower storage layer.
+Spring Framework provides caching in a Spring Application, transparently. In Spring, the cache abstraction is a mechanism that allows consistent use of various caching methods with minimal impact on the code.
+
+13-Logging is a powerful aid for understanding and debugging program's run time behavior. Logs capture and persist the important data and make it available for analysis at any point in time.
+
+
+14-Swagger2 is an open source project used to generate the REST API documents for RESTful web services. It provides a user interface to access our RESTful web services via the web browser.
+
